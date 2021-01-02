@@ -1,12 +1,363 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            hello world
-        </title>
-    </head>
-    <body>
-        <h1> what's your name</h1>
-    </body>
-</html>
+<!doctype html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=yes, initial-scale=0.3, maxmum-scale=1.0, minimum-scale=0.3">
+    <meta name="description" content="">
+    <meta name="gaoxinzhi" content="website">
+    <title>DUT_GaoXinzhi</title>
+    <link rel="icon" href="image/G.svg">
+    <link rel="shortcut icon" href="image/G.svg">
+    <link rel="stylesheet" href="css/custom.css">
+    <!--awesome font icons-->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand ml-5" href="#mainpage">
+            <i class="fa fa-home fa-fw"></i>
+            GaoXinzhi
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+            data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" aria-label="close"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-5" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link navcon" href="#ABOUT">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navcon" href="#SKILLS">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navcon" href="#resume1">EDUCATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navcon" href="#project">PROJECT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navcon" href="#contact">CONTACT</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--main page-->
+    <div class="mb-1 shadow h-100 w-100 p-0 d-flex flex-column justify-content-center" id="mainpage">
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron jumbotron-fluid d-flex m-0" id="jumb">
+            <div class="container-fluid">
+                <h1 class="display-1 pb-2">Hello, I'm GaoXinzhi!</h1>
+                <p class="display-4 pb-3">Come on!</p>
+                <p>
+                    <a class="btn btn-outline-primary btn-lg" href="#ABOUT" role="button">
+                        Learn more &raquo;
+                    </a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="ABOUT" class="h-100 shadow mb-1 pt-5 m-0">
+        <div class="h-25 row justify-content-center m-0">
+            <div class="align-self-center">
+                <h1 class="mt-5 pb-1">
+                    About Me
+                </h1>
+                <hr class="hrstyle">
+            </div>
+        </div>
+        <div class="row justify-content-center m-0">
+            <img src="image/photo.jpg" class="rounded-circle">
+        </div>
+        <div class="row h-50 justify-content-center m-0">
+            <div class="col-6">
+                <div class="row h-50 justify-content-center align-content-end">
+                    <p class="text-justify lead font-weight-light">My name is Gao Xinzhi and I am from Hengshui City,
+                        Hebei Province, China. Likes video games and
+                        watching movies. I am now studying at the School of Computer Science and Technology of Dalian
+                        University of Technology. Hope to be friends with you.</p>
+                </div>
+
+                <div class="row h-50 justify-content-center align-content-center">
+                    <button type="button" class="btn btn-secondary mb-5" style="height: 50px;">Download Resume</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="h-100 shadow mb-1 pt-5 m-0 px-0" id="SKILLS">
+
+        <div class="h-25 row justify-content-center m-0">
+            <div class="align-self-center">
+                <h1 class="mt-1 pb-1">
+                    Skills
+                </h1>
+                <hr class="hrstyle">
+            </div>
+        </div>
+
+
+        <div class="container-fluid h-75 w-100 p-0">
+            <div class="row w-100 h-75 pt-0 justify-content-center m-0">
+                <div class="col-1">
+                    <div class="row h-25">
+                        <p class="text-center w-100 lead">C++</p>
+                    </div>
+                    <div class="row h-25">
+                        <p class="text-center w-100 lead">HTML</p>
+                    </div>
+                    <div class="row h-25">
+                        <p class="text-center w-100 lead">JAVA</p>
+                    </div>
+                    <div class="row h-25">
+                        <p class="text-center w-100 lead">PYTHON</p>
+                    </div>
+                    <div class="row h-25">
+                        <p class="text-center w-100 lead">JAVASCRIPT</p>
+                    </div>
+                </div>
+
+                <div class="col-6">
+
+                    <div class="row w-100 h-25 justify-content-center m-0 pt-2">
+
+                        <div class="progress col-12 p-0">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row w-100 h-25 justify-content-center m-0 pt-2">
+                        <div class="progress col-12 p-0">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                role="progressbar" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 37%"></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row w-100 h-25 justify-content-center m-0 pt-2">
+                        <div class="progress col-12 p-0">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="row w-100 h-25 justify-content-center m-0 pt-2">
+                        <div class="progress col-12 p-0">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                role="progressbar" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 56%"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="row w-100 h-25 justify-content-center m-0 pt-2">
+                        <div class="progress col-12 p-0">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 15%"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="h-100 shadow mb-1 pt-5 m-0" id="resume1">
+        <div class="container-fluid w-100 h-25">
+            <div class="h-25 row justify-content-center m-0">
+                <div>
+                    <h1 class="mt-4">
+                        Education
+                    </h1>
+                    <hr class="hrstyle">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid w-100 h-75">
+            <div class="row h-100 justify-content-around">
+                <div class="col-4">
+                    <div class="jumbotron" id="education1">
+                        <h1 class="lead font-weight-bold" style="font-size: 30px;">河北冀州中学</h1>
+                        <p class="lead text-left" style="font-size: 20px;">河北冀州中学（Jizhou Hebei middle
+                            school）坐落在国家级湿地自然保护区——衡水湖畔，位于衡水市冀州区，是河北省重点中学，河北省省级示范性高中。</p>
+                        <hr class="my-4">
+                        <p class="font-weight-bold">高中</p>
+                        <a class="btn btn-primary btn-lg" href="http://www.jzzx.com" role="button">Learn more</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="jumbotron" id="education2">
+                        <h1 class="lead font-weight-bold" style="font-size: 30px;">大连理工大学</h1>
+                        <p class="lead text-left">大连理工大学（Dalian University of
+                            Technology）简称”大工“，坐落于滨城大连，是教育部直属的全国重点大学.也是世界一流大学A类建设高校。</p>
+                        <hr class="my-4">
+                        <p class="font-weight-bold">本科</p>
+                        <a class="btn btn-primary btn-lg" href="https://www.dlut.edu.cn" role="button">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="h-100 shadow mb-1 pt-5 m-0 px-0" id="project">
+
+        <div class="h-25 row justify-content-center m-0">
+            <div class="align-self-center">
+                <h1 class="mt-1 pb-1">
+                    Project
+                </h1>
+                <hr class="hrstyle">
+            </div>
+        </div>
+    </div>
+    <div class="h-100 pt-5 m-0 px-0" id="contact">
+
+        <div class="h-25 row justify-content-center m-0">
+            <div class="align-self-center">
+                <h1 class="mt-1 pb-1">
+                    Contact
+                </h1>
+                <hr class="hrstyle">
+            </div>
+        </div>
+
+        <div class="container-fluid h-75 w-100">
+            <div class="row h-25 justify-content-center">
+                <table class="col-8  h-100">
+                    <tr>
+                        <td class="tdsticon">
+                            <i class="fa fa-map-marker fa-2x fa-fw"></i>
+                        </td>
+                        <td class="tdsticon">
+                            <i class="fa fa-envelope fa-fw fa-2x" aria-hidden="true"></i>
+                        </td>
+                        <td class="tdsticon">
+                            <i class="fa fa-phone fa-fw fa-2x" aria-hidden="true"></i>
+                        </td>
+                        <td class="tdsticon">
+                            <i class="fa fa-qq fa-fw fa-2x" aria-hidden="true"></i>
+                        </td>
+                        <td class="tdsticon">
+                            <i class="fa fa-weixin fa-fw fa-2x" aria-hidden="true"></i>
+                        </td>
+                        <td class="tdsticon">
+                            <a href="https://github.com/DUT-GaoXinzhi">
+                                <i class="fa fa-github fa-fw fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdst">
+                            Hengshui City<br>Hebei Province<br>China
+                        </td>
+                        <td class="tdst">
+                            DUT_GaoXinzhi@163.com
+                        </td>
+                        <td class="tdst">
+                            15541177362
+                        </td>
+                        <td class="tdst">
+                            651599228
+                        </td>
+                        <td class="tdst">
+                            13780489217
+                        </td>
+                        <td class="tdst">
+                            651599228@qq.com
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="row h-75 justify-content-center">
+
+                <div class="col-6 h-100 text-center">
+                    <p class="text-center lead" style="font-size: 28px;">Leave me a message</p>
+                    <form>
+                        <div class="form-row">
+                            <div class="col mr-2">
+                                <input type="text" id="name" class="form-control" placeholder="Name" required="required" aria-invalid="false">
+                            </div>
+                            <div class="col ml-2 mb-3">
+                                <input type="text" id="name" class="form-control" placeholder="Email" required="required" aria-invalid="false">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <textarea name="message" id="message" class="form-control" rows="4"
+                                    placeholder="Message" required="" aria-invalid="false"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                    <button type="submit" class="btn btn-secondary mt-5 btn-lg">Send Message</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="float-center w-100 bg-dark text-light m-0 text-center" style="height: 100px;">
+        <div class="container-fluid h-100 w-100">
+            <div class="row h-100 w-100 justify-content-center">
+                <div class="col-4 align-self-center">
+                    <p class="m-0 lead" style="letter-spacing: 2px; font-size: medium;">&copy; GaoXinzhi 2019-2020
+                        HomePage</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/live2d-widget/autoload.js"></script>
+
+
+    <!--页面滚动插件-->
+    <script src="javascript/jquery.malihu.PageScroll2id.js"></script>
+    <script src="javascript/about.js"></script>
+    <!-- weather 插件 -->
+    <script type="text/javascript">
+        WIDGET = { FID: '2JdsjUYjIk' }
+    </script>
+    <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+</body>
+
+</html>
